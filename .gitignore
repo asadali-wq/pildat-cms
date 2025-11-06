@@ -14,7 +14,6 @@ build/
 
 # --- URGENT: SECRETS TO IGNORE ---
 # Ignore the file with your Google AI API Key
-/lib/services/ai_service.dart
 
 # Ignore the files with your Database Password
 /pildat-php/includes/db.php
