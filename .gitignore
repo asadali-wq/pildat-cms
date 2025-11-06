@@ -1,0 +1,21 @@
+# --- Flutter ---
+.dart_tool/
+.idea/
+.metadata
+.packages
+build/
+*.iml
+*.swp
+*~
+
+# --- PHP / Server ---
+# Ignore user-uploaded contact images
+/pildat-php/uploads/
+
+# --- URGENT: SECRETS TO IGNORE ---
+# Ignore the file with your Google AI API Key
+/lib/services/ai_service.dart
+
+# Ignore the files with your Database Password
+/pildat-php/includes/db.php
+/pildat-php/includes/db_api.php
